@@ -1,0 +1,8 @@
+		<h3 ng-init="d()">description</h3>
+
+
+<div ng-repeat="x in myData| filter:{id:d()}">
+Welcome ! {{x.name}}
+<h3> {{x.name}} </h3>
+<p>{{x.description}}</p>
+</div>
