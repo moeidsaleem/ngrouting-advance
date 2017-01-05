@@ -1,0 +1,30 @@
+{
+  "name": "ngrouting-advance",
+  "version": "1.0.0",
+  "description": "complete ng-routing for making advance views.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moeidsaleem/ngrouting-advance.git"
+  },
+  "keywords": [
+    "ngroutes",
+    "views",
+    "angular",
+    "routing"
+  ],
+  "dependencies":{
+    "express":"*",
+    "body-parser":"*"
+  },
+  "author": "atrixdigital",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moeidsaleem/ngrouting-advance/issues"
+  },
+  "homepage": "https://github.com/moeidsaleem/ngrouting-advance#readme"
+}
